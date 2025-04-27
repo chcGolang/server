@@ -49,4 +49,5 @@ jobs:
                   title: 'build(precompiled): make a bundle with the dependencies'
                   body: |
                       Merge till a new release tagged.
-                  labels: ci:build
+                  # 删除或注释掉 labels 参数：
+                  # labels: ci:build
